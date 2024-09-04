@@ -1,0 +1,8 @@
+CREATE DATABASE QuanLyTrungTamNgoaiNgu
+USE QuanLyTrungTamNgoaiNgu
+GO
+CREATE TABLE NgoaiNgu
+(
+	MaNgoaiNgu VARCHAR(3) PRIMARY KEY,
+	TenNgoaiNgu NVARCHAR(30) NOT NULL UNIQUE
+)
